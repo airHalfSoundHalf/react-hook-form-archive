@@ -1,12 +1,14 @@
 import "./App.css";
-import FormOne from "./form/Form_01";
-import FormTwo from "./form2/Form_02";
+import FormOne from "./form";
+import FormTwo from "./form2";
+import FormThree from "./form3";
 
 const App = () => {
   return (
     <>
       {/* <FormOne /> */}
       <FormTwo />
+      <FormThree />
     </>
   );
 };
